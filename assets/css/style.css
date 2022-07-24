@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* faiver odd stye start*/
+
+
+.faiver-odd .my-3 {
+   flex: 1;
+   margin-right: 5px;
+}
+
+.count{
+    font-weight: bold;
+}
