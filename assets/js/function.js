@@ -24,3 +24,17 @@ const counterper = (start_time , end_time) => {
    
 }
 
+
+
+
+
+
+
+
+
+    // let time_diff = endTime.getTime() - startTime;
+    // let time_cng = endTime.getTime() - Date.now();
+
+    // let ami = (100 * time_cng) / time_diff;
+    // par.innerHTML = ami
+

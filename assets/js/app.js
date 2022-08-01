@@ -12,6 +12,7 @@ let counter = null;
 
 
 faiver_form.onsubmit = (e) => {
+    
     e.preventDefault();
 
     clearInterval(counter);
@@ -22,7 +23,6 @@ faiver_form.onsubmit = (e) => {
         date,
         time
     } = Object.fromEntries(form_data.entries());
-
 
 
 
@@ -66,14 +66,6 @@ faiver_form.onsubmit = (e) => {
             }
 
             count.innerHTML = `<h2>day : ${total_day} hour : ${hour} minute : ${min} sec : ${sec}</h2>`
-
-            let time_diff = endTime.getTime() - startTime;
-            let time_cng = endTime.getTime() - Date.now();
-
-            let ami = (100 * time_cng) / time_diff;
-            par.innerHTML = ami
-
-
 
         }, 1000)
 
